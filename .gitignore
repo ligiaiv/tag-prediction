@@ -3,3 +3,4 @@ mal_downloader/dataset.json
 venv/
 .idea/
 *.log
+*dataset.json
