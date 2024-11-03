@@ -1,4 +1,4 @@
-from models.models import Model
+from predictor.source.models.model import Model
 
 
 class LinearRegressionModel(Model):

@@ -1,7 +1,7 @@
 from dataset_management.reader import read_dataset
 from dataset_management.splitter import split_dataset
 from definitions import USED_MODEL, DATASET_FILENAME
-from models.models import Model
+from predictor.source.models.model import Model
 
 if __name__ == "__main__":
     dataset = read_dataset(DATASET_FILENAME)

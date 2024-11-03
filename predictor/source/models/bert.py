@@ -1,7 +1,8 @@
-from models import Model
-from dataset_management.bert_preprocessor import BertPreprocessor
+from predictor.source.models.model import Model
+from predictor.source.dataset_management.bert_preprocessor import BertPreprocessor
 from transformers import AutoModelForSequenceClassification
-from dataset_management.dataset import Dataset
+from predictor.source.dataset_management.dataset import Dataset
+import numpy as np
 
 
 class BertModel(Model):

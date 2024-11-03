@@ -1,4 +1,4 @@
-from dataset_management.preprocessing import Preprocessor
+from predictor.source.dataset_management.preprocessing import Preprocessor
 from transformers import AutoTokenizer
 
 
