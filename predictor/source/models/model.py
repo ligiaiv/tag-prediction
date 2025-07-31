@@ -8,8 +8,8 @@ class Model():
     def _proprocess_dataset():
         pass
 
-    def train():
+    def train(self):
         pass
 
-    def test() -> np.ndarray:
+    def test(self, test_data) -> np.ndarray:
         pass
