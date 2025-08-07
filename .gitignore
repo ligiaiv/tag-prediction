@@ -1,6 +1,6 @@
 back-up-dataset.json
 mal_downloader/dataset.json
 venv/
-.idea/
+.idea/*
 *.log
 *dataset.json

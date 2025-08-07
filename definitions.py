@@ -1,4 +1,5 @@
-from predictor.source.models import linear_regression
+import os
 
+ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATASET_FILENAME = "dataset.json"
-USED_MODEL = linear_regression.LinearRegressionModel
+GENERAL_SEED = 24
